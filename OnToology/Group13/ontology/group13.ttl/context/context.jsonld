@@ -104,9 +104,6 @@
     "Borough" : {
       "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#Borough"
     },
-    "Region" : {
-      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#Region"
-    },
     "hasPhone" : {
       "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone"
     },
