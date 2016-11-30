@@ -1,0 +1,40 @@
+{
+  "@context" : {
+    "pertainToSchoolDistrict" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSchoolDistrict"
+    },
+    "hasOrganizationType" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationType"
+    },
+    "hasName" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasName"
+    },
+    "hasAddress" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress"
+    },
+    "SchoolDistrict" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasLatitude" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude"
+    },
+    "hasOrganizationalCode" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationalCode"
+    },
+    "hasLongitude" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude"
+    },
+    "hasZipCode" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasZipCode"
+    },
+    "School" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#School"
+    },
+    "hasPhone" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone"
+    }
+  }
+}

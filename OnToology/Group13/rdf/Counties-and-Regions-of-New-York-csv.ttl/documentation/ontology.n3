@@ -1,0 +1,288 @@
+<http://www.linkedData_Group13.com/resource/Saratoga> <http://www.w3.org/2000/01/rdf-schema#label> "Saratoga" .
+<http://www.linkedData_Group13.com/resource/Saratoga> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Saratoga> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Saratoga"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Saratoga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Columbia> <http://www.w3.org/2000/01/rdf-schema#label> "Columbia" .
+<http://www.linkedData_Group13.com/resource/Columbia> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Columbia> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Columbia"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Columbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Monroe> <http://www.w3.org/2000/01/rdf-schema#label> "Monroe" .
+<http://www.linkedData_Group13.com/resource/Monroe> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Monroe> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Monroe"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Monroe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Schoharie> <http://www.w3.org/2000/01/rdf-schema#label> "Schoharie" .
+<http://www.linkedData_Group13.com/resource/Schoharie> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Mohawk Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Schoharie> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Schoharie"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Schoharie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Nassau> <http://www.w3.org/2000/01/rdf-schema#label> "Nassau" .
+<http://www.linkedData_Group13.com/resource/Nassau> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Long Island"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Nassau> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Nassau"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Nassau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Seneca> <http://www.w3.org/2000/01/rdf-schema#label> "Seneca" .
+<http://www.linkedData_Group13.com/resource/Seneca> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Seneca> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Seneca"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Seneca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Kings> <http://www.w3.org/2000/01/rdf-schema#label> "Kings" .
+<http://www.linkedData_Group13.com/resource/Kings> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "New York City"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Kings> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Kings"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Kings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Finger+Lakes> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Finger+Lakes> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Finger Lakes"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Finger+Lakes> <http://www.w3.org/2000/01/rdf-schema#label> "Finger Lakes" .
+<http://www.linkedData_Group13.com/resource/Finger+Lakes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Essex> <http://www.w3.org/2000/01/rdf-schema#label> "Essex" .
+<http://www.linkedData_Group13.com/resource/Essex> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Essex> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Essex"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Essex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Oneida> <http://www.w3.org/2000/01/rdf-schema#label> "Oneida" .
+<http://www.linkedData_Group13.com/resource/Oneida> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Mohawk Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Oneida> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Oneida"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Oneida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Otsego> <http://www.w3.org/2000/01/rdf-schema#label> "Otsego" .
+<http://www.linkedData_Group13.com/resource/Otsego> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Mohawk Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Otsego> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Otsego"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Otsego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Orange> <http://www.w3.org/2000/01/rdf-schema#label> "Orange" .
+<http://www.linkedData_Group13.com/resource/Orange> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Orange> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Orange"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Orange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Fulton> <http://www.w3.org/2000/01/rdf-schema#label> "Fulton" .
+<http://www.linkedData_Group13.com/resource/Fulton> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Mohawk Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Fulton> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Fulton"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Fulton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Cattaraugus> <http://www.w3.org/2000/01/rdf-schema#label> "Cattaraugus" .
+<http://www.linkedData_Group13.com/resource/Cattaraugus> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Western New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Cattaraugus> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Cattaraugus"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Cattaraugus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Broome> <http://www.w3.org/2000/01/rdf-schema#label> "Broome" .
+<http://www.linkedData_Group13.com/resource/Broome> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Broome> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Broome"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Broome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Sullivan> <http://www.w3.org/2000/01/rdf-schema#label> "Sullivan" .
+<http://www.linkedData_Group13.com/resource/Sullivan> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Sullivan> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Sullivan"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Sullivan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Warren> <http://www.w3.org/2000/01/rdf-schema#label> "Warren" .
+<http://www.linkedData_Group13.com/resource/Warren> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Warren> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Warren"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Warren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Capital+District> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Capital+District> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Capital District"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Capital+District> <http://www.w3.org/2000/01/rdf-schema#label> "Capital District" .
+<http://www.linkedData_Group13.com/resource/Capital+District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Washington> <http://www.w3.org/2000/01/rdf-schema#label> "Washington" .
+<http://www.linkedData_Group13.com/resource/Washington> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Washington> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Washington"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Washington> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Livingston> <http://www.w3.org/2000/01/rdf-schema#label> "Livingston" .
+<http://www.linkedData_Group13.com/resource/Livingston> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Livingston> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Livingston"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Livingston> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Erie> <http://www.w3.org/2000/01/rdf-schema#label> "Erie" .
+<http://www.linkedData_Group13.com/resource/Erie> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Western New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Erie> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Erie"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Erie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Suffolk> <http://www.w3.org/2000/01/rdf-schema#label> "Suffolk" .
+<http://www.linkedData_Group13.com/resource/Suffolk> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Long Island"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Suffolk> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Suffolk"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Suffolk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/New+York> <http://www.w3.org/2000/01/rdf-schema#label> "New York" .
+<http://www.linkedData_Group13.com/resource/New+York> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "New York City"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/New+York> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "New York"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/New+York> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Rockland> <http://www.w3.org/2000/01/rdf-schema#label> "Rockland" .
+<http://www.linkedData_Group13.com/resource/Rockland> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Rockland> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Rockland"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Rockland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Bronx> <http://www.w3.org/2000/01/rdf-schema#label> "Bronx" .
+<http://www.linkedData_Group13.com/resource/Bronx> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "New York City"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Bronx> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Bronx"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Bronx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Ulster> <http://www.w3.org/2000/01/rdf-schema#label> "Ulster" .
+<http://www.linkedData_Group13.com/resource/Ulster> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Ulster> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Ulster"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Ulster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Chemung> <http://www.w3.org/2000/01/rdf-schema#label> "Chemung" .
+<http://www.linkedData_Group13.com/resource/Chemung> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Chemung> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Chemung"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Chemung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Madison> <http://www.w3.org/2000/01/rdf-schema#label> "Madison" .
+<http://www.linkedData_Group13.com/resource/Madison> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Central New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Madison> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Madison"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Madison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Long+Island> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Long+Island> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Long Island"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Long+Island> <http://www.w3.org/2000/01/rdf-schema#label> "Long Island" .
+<http://www.linkedData_Group13.com/resource/Long+Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Lewis> <http://www.w3.org/2000/01/rdf-schema#label> "Lewis" .
+<http://www.linkedData_Group13.com/resource/Lewis> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Lewis> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Lewis"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Lewis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Cayuga> <http://www.w3.org/2000/01/rdf-schema#label> "Cayuga" .
+<http://www.linkedData_Group13.com/resource/Cayuga> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Central New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Cayuga> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Cayuga"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Cayuga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Western+New+York> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Western+New+York> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Western New York"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Western+New+York> <http://www.w3.org/2000/01/rdf-schema#label> "Western New York" .
+<http://www.linkedData_Group13.com/resource/Western+New+York> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Ontario> <http://www.w3.org/2000/01/rdf-schema#label> "Ontario" .
+<http://www.linkedData_Group13.com/resource/Ontario> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Ontario> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Ontario"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Ontario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Wyoming> <http://www.w3.org/2000/01/rdf-schema#label> "Wyoming" .
+<http://www.linkedData_Group13.com/resource/Wyoming> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Wyoming> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Wyoming"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Wyoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Tioga> <http://www.w3.org/2000/01/rdf-schema#label> "Tioga" .
+<http://www.linkedData_Group13.com/resource/Tioga> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Tioga> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Tioga"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Tioga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Greene> <http://www.w3.org/2000/01/rdf-schema#label> "Greene" .
+<http://www.linkedData_Group13.com/resource/Greene> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Greene> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Greene"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Greene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Central+New+York> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Central+New+York> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Central New York"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Central+New+York> <http://www.w3.org/2000/01/rdf-schema#label> "Central New York" .
+<http://www.linkedData_Group13.com/resource/Central+New+York> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Southern+Tier> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Southern+Tier> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Southern Tier"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Southern+Tier> <http://www.w3.org/2000/01/rdf-schema#label> "Southern Tier" .
+<http://www.linkedData_Group13.com/resource/Southern+Tier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Franklin> <http://www.w3.org/2000/01/rdf-schema#label> "Franklin" .
+<http://www.linkedData_Group13.com/resource/Franklin> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Franklin> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Franklin"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Franklin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Chautauqua> <http://www.w3.org/2000/01/rdf-schema#label> "Chautauqua" .
+<http://www.linkedData_Group13.com/resource/Chautauqua> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Western New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Chautauqua> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Chautauqua"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Chautauqua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Allegany> <http://www.w3.org/2000/01/rdf-schema#label> "Allegany" .
+<http://www.linkedData_Group13.com/resource/Allegany> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Western New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Allegany> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Allegany"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Allegany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Onondaga> <http://www.w3.org/2000/01/rdf-schema#label> "Onondaga" .
+<http://www.linkedData_Group13.com/resource/Onondaga> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Central New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Onondaga> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Onondaga"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Onondaga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/New+York+City> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/New+York+City> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "New York City"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/New+York+City> <http://www.w3.org/2000/01/rdf-schema#label> "New York City" .
+<http://www.linkedData_Group13.com/resource/New+York+City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Oswego> <http://www.w3.org/2000/01/rdf-schema#label> "Oswego" .
+<http://www.linkedData_Group13.com/resource/Oswego> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Central New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Oswego> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Oswego"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Oswego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Richmond> <http://www.w3.org/2000/01/rdf-schema#label> "Richmond" .
+<http://www.linkedData_Group13.com/resource/Richmond> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "New York City"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Richmond> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Richmond"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Richmond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Jefferson> <http://www.w3.org/2000/01/rdf-schema#label> "Jefferson" .
+<http://www.linkedData_Group13.com/resource/Jefferson> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Jefferson> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Jefferson"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Jefferson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Hudson+Valley> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Hudson+Valley> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Hudson Valley"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Hudson+Valley> <http://www.w3.org/2000/01/rdf-schema#label> "Hudson Valley" .
+<http://www.linkedData_Group13.com/resource/Hudson+Valley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Albany> <http://www.w3.org/2000/01/rdf-schema#label> "Albany" .
+<http://www.linkedData_Group13.com/resource/Albany> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Albany> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Albany"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Albany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Schuyler> <http://www.w3.org/2000/01/rdf-schema#label> "Schuyler" .
+<http://www.linkedData_Group13.com/resource/Schuyler> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Schuyler> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Schuyler"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Schuyler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Westchester> <http://www.w3.org/2000/01/rdf-schema#label> "Westchester" .
+<http://www.linkedData_Group13.com/resource/Westchester> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Westchester> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Westchester"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Westchester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Hamilton> <http://www.w3.org/2000/01/rdf-schema#label> "Hamilton" .
+<http://www.linkedData_Group13.com/resource/Hamilton> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Hamilton> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Hamilton"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Hamilton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Yates> <http://www.w3.org/2000/01/rdf-schema#label> "Yates" .
+<http://www.linkedData_Group13.com/resource/Yates> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Yates> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Yates"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Yates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Queens> <http://www.w3.org/2000/01/rdf-schema#label> "Queens" .
+<http://www.linkedData_Group13.com/resource/Queens> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "New York City"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Queens> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Queens"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Queens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Cortland> <http://www.w3.org/2000/01/rdf-schema#label> "Cortland" .
+<http://www.linkedData_Group13.com/resource/Cortland> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Central New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Cortland> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Cortland"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Cortland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Putnam> <http://www.w3.org/2000/01/rdf-schema#label> "Putnam" .
+<http://www.linkedData_Group13.com/resource/Putnam> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Putnam> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Putnam"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Putnam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Dutchess> <http://www.w3.org/2000/01/rdf-schema#label> "Dutchess" .
+<http://www.linkedData_Group13.com/resource/Dutchess> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Hudson Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Dutchess> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Dutchess"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Dutchess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Orleans> <http://www.w3.org/2000/01/rdf-schema#label> "Orleans" .
+<http://www.linkedData_Group13.com/resource/Orleans> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Orleans> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Orleans"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Orleans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/St.+Lawrence> <http://www.w3.org/2000/01/rdf-schema#label> "St. Lawrence" .
+<http://www.linkedData_Group13.com/resource/St.+Lawrence> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/St.+Lawrence> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "St. Lawrence"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/St.+Lawrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Wayne> <http://www.w3.org/2000/01/rdf-schema#label> "Wayne" .
+<http://www.linkedData_Group13.com/resource/Wayne> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Wayne> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Wayne"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Wayne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Tompkins> <http://www.w3.org/2000/01/rdf-schema#label> "Tompkins" .
+<http://www.linkedData_Group13.com/resource/Tompkins> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Tompkins> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Tompkins"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Tompkins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Delaware> <http://www.w3.org/2000/01/rdf-schema#label> "Delaware" .
+<http://www.linkedData_Group13.com/resource/Delaware> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Delaware> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Delaware"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Delaware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Niagara> <http://www.w3.org/2000/01/rdf-schema#label> "Niagara" .
+<http://www.linkedData_Group13.com/resource/Niagara> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Western New York"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Niagara> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Niagara"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Niagara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/North+Country> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/North+Country> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "North Country"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/North+Country> <http://www.w3.org/2000/01/rdf-schema#label> "North Country" .
+<http://www.linkedData_Group13.com/resource/North+Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Montgomery> <http://www.w3.org/2000/01/rdf-schema#label> "Montgomery" .
+<http://www.linkedData_Group13.com/resource/Montgomery> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Mohawk Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Montgomery> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Montgomery"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Montgomery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Genesee> <http://www.w3.org/2000/01/rdf-schema#label> "Genesee" .
+<http://www.linkedData_Group13.com/resource/Genesee> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Finger Lakes"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Genesee> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Genesee"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Genesee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Rensselaer> <http://www.w3.org/2000/01/rdf-schema#label> "Rensselaer" .
+<http://www.linkedData_Group13.com/resource/Rensselaer> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Rensselaer> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Rensselaer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Rensselaer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Clinton> <http://www.w3.org/2000/01/rdf-schema#label> "Clinton" .
+<http://www.linkedData_Group13.com/resource/Clinton> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "North Country"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Clinton> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Clinton"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Clinton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Steuben> <http://www.w3.org/2000/01/rdf-schema#label> "Steuben" .
+<http://www.linkedData_Group13.com/resource/Steuben> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Steuben> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Steuben"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Steuben> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Schenectady> <http://www.w3.org/2000/01/rdf-schema#label> "Schenectady" .
+<http://www.linkedData_Group13.com/resource/Schenectady> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Capital District"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Schenectady> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Schenectady"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Schenectady> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Chenango> <http://www.w3.org/2000/01/rdf-schema#label> "Chenango" .
+<http://www.linkedData_Group13.com/resource/Chenango> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Southern Tier"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Chenango> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Chenango"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Chenango> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Herkimer> <http://www.w3.org/2000/01/rdf-schema#label> "Herkimer" .
+<http://www.linkedData_Group13.com/resource/Herkimer> <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> "Mohawk Valley"^^<http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+<http://www.linkedData_Group13.com/resource/Herkimer> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Herkimer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Herkimer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+<http://www.linkedData_Group13.com/resource/Mohawk+Valley> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.linkedData_Group13.com/resource/Mohawk+Valley> <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> "Mohawk Valley"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.linkedData_Group13.com/resource/Mohawk+Valley> <http://www.w3.org/2000/01/rdf-schema#label> "Mohawk Valley" .
+<http://www.linkedData_Group13.com/resource/Mohawk+Valley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
