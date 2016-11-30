@@ -1,0 +1,658 @@
+@prefix :        <http://www.linkedData_Group13.com/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace> .
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+      a       rdfs:Datatype .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#Region>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica a una region, en este caso del estado de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:decimal ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica a las instalaciones de sanidad \"pública\""@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasHealthFacilityType> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone> ;
+                owl:someValuesFrom xsd:string
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion>
+      a       owl:ObjectProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> , <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Neighbourhood> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#County> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasHouseNumber>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range xsd:decimal ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "[0-9]*-[0-9]*" ;
+                          rdf:rest ()
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica las bocas de metro de la ciudad de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
+                owl:someValuesFrom xsd:anyURI
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSubwayLine> ;
+                owl:someValuesFrom <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine>
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasZipCode>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range xsd:decimal .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasGolfCourse>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> ;
+      rdfs:range xsd:boolean .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica los distritos escolares de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#Borough>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica a los municipios de la ciudad de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#County> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToCounty> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSchoolDistrict>
+      a       owl:ObjectProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> ;
+      rdfs:range <http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range xsd:anyURI .
+
+:     a       owl:Ontology ;
+      rdfs:comment "Ontología que representa las entidades/recursos deducidas de los datos obtenidos y analizados de los dataset, así como las object properties y data properties a las que éstos astán asociadas." .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasBeach>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> ;
+      rdfs:range xsd:boolean .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasNumberRegion>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "1" ;
+                          rdf:rest
+                                  [ a       rdf:List ;
+                                    rdf:first "10" ;
+                                    rdf:rest
+                                            [ a       rdf:List ;
+                                              rdf:first "11" ;
+                                              rdf:rest
+                                                      [ a       rdf:List ;
+                                                        rdf:first "12" ;
+                                                        rdf:rest
+                                                                [ a       rdf:List ;
+                                                                  rdf:first "2" ;
+                                                                  rdf:rest
+                                                                          [ a       rdf:List ;
+                                                                            rdf:first "3" ;
+                                                                            rdf:rest
+                                                                                    [ a       rdf:List ;
+                                                                                      rdf:first "4" ;
+                                                                                      rdf:rest
+                                                                                              [ a       rdf:List ;
+                                                                                                rdf:first "5" ;
+                                                                                                rdf:rest
+                                                                                                        [ a       rdf:List ;
+                                                                                                          rdf:first "6" ;
+                                                                                                          rdf:rest
+                                                                                                                  [ a       rdf:List ;
+                                                                                                                    rdf:first "7" ;
+                                                                                                                    rdf:rest
+                                                                                                                            [ a       rdf:List ;
+                                                                                                                              rdf:first "8" ;
+                                                                                                                              rdf:rest
+                                                                                                                                      [ a       rdf:List ;
+                                                                                                                                        rdf:first "9" ;
+                                                                                                                                        rdf:rest ()
+                                                                                                                                      ]
+                                                                                                                            ]
+                                                                                                                  ]
+                                                                                                        ]
+                                                                                              ]
+                                                                                    ]
+                                                                          ]
+                                                                ]
+                                                      ]
+                                            ]
+                                  ]
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough>
+      a       owl:ObjectProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Neighbourhood> , <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#Neighbourhood>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica a un barrio, en este caso de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica las lineas de metro de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+      a       rdfs:Datatype .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range xsd:string .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasName>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> , <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Neighbourhood> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#County> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range xsd:string .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasPlayGround>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "N" ;
+                          rdf:rest
+                                  [ a       rdf:List ;
+                                    rdf:first "Y" ;
+                                    rdf:rest ()
+                                  ]
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#Library>
+      a       owl:Class ;
+      rdfs:comment "Recurso que identifica las librerías de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasHouseNumber> ;
+                owl:someValuesFrom xsd:decimal
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:anyURI ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:decimal ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasZipCode> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasCampZone>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> ;
+      rdfs:range xsd:boolean .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]" ;
+                          rdf:rest ()
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#isNatureCenter>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> ;
+      rdfs:range xsd:boolean .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToCounty>
+      a       owl:ObjectProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> , <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Neighbourhood> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range <http://www.linkedData_Group13.com/ontology/livingPlaces#County> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasParkFacilityType>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "Marine Facility" ;
+                          rdf:rest
+                                  [ a       rdf:List ;
+                                    rdf:first "Other" ;
+                                    rdf:rest
+                                            [ a       rdf:List ;
+                                              rdf:first "State Historic Park" ;
+                                              rdf:rest
+                                                      [ a       rdf:List ;
+                                                        rdf:first "State Historic Site" ;
+                                                        rdf:rest
+                                                                [ a       rdf:List ;
+                                                                  rdf:first "State Park" ;
+                                                                  rdf:rest
+                                                                          [ a       rdf:List ;
+                                                                            rdf:first "State Park Preserve" ;
+                                                                            rdf:rest ()
+                                                                          ]
+                                                                ]
+                                                      ]
+                                            ]
+                                  ]
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility>
+      a       owl:Class ;
+      rdfs:comment "Con respecto a la data property hasURL, en este caso cada facility tnedra asociada ninguna, una o varias URL debido a las instalaciones que contenga (o no), ejemplo de esto serían instalaciones con campo de golf y playa donde habria una URL por cada sub Facility asociada a la State Facility que las contiene"@es , "Recurso que define e identifica a los State Parks de Nueva York. Donde State Park hace referencia a instalaciones de diversa indole como parques, reservas naturales, playas, etc. propiedad del estado y mantenidas por el."@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasParkFacilityType> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasBeach> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasCampZone> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasGolfCourse> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
+                owl:someValuesFrom xsd:anyURI
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#County> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToCounty> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#isNatureCenter> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasPlayGround> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationType>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "Academy" ;
+                          rdf:rest
+                                  [ a       rdf:List ;
+                                    rdf:first "HighSchool" ;
+                                    rdf:rest
+                                            [ a       rdf:List ;
+                                              rdf:first "PublicSchool" ;
+                                              rdf:rest
+                                                      [ a       rdf:List ;
+                                                        rdf:first "RegionalSchool" ;
+                                                        rdf:rest
+                                                                [ a       rdf:List ;
+                                                                  rdf:first "StateAgency" ;
+                                                                  rdf:rest ()
+                                                                ]
+                                                      ]
+                                            ]
+                                  ]
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#County>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica los condados del estado de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Region> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationalCode>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> ;
+      rdfs:range xsd:decimal .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#School> , <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility> , <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> , <http://www.linkedData_Group13.com/ontology/livingPlaces#Library> ;
+      rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#hasHealthFacilityType>
+      a       owl:DatatypeProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#HealthFacility> ;
+      rdfs:range
+              [ a       rdfs:Datatype ;
+                owl:oneOf
+                        [ a       rdf:List ;
+                          rdf:first "Acute Care Hospital" ;
+                          rdf:rest
+                                  [ a       rdf:List ;
+                                    rdf:first "Child Health Center" ;
+                                    rdf:rest
+                                            [ a       rdf:List ;
+                                              rdf:first "Diagnostic & Treatment Center" ;
+                                              rdf:rest
+                                                      [ a       rdf:List ;
+                                                        rdf:first "Nursing Home" ;
+                                                        rdf:rest ()
+                                                      ]
+                                            ]
+                                  ]
+                        ]
+              ] .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSubwayLine>
+      a       owl:ObjectProperty ;
+      rdfs:domain <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance> ;
+      rdfs:range <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine> .
+
+<http://www.linkedData_Group13.com/ontology/livingPlaces#School>
+      a       owl:Class ;
+      rdfs:comment "Recurso que define e identifica a las escuelas de Nueva York"@es ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone> ;
+                owl:someValuesFrom xsd:string
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:decimal ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationalCode> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:decimal ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasZipCode> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#SchoolDistrict> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSchoolDistrict> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationType> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] .
