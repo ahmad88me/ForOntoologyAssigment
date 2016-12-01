@@ -1,0 +1,46 @@
+{
+  "@context" : {
+    "hasUrl" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl"
+    },
+    "hasParkFacilityType" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasParkFacilityType"
+    },
+    "pertainToRegion" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToRegion"
+    },
+    "hasName" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasName"
+    },
+    "isNatureCenter" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#isNatureCenter"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasCampZone" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasCampZone"
+    },
+    "hasLatitude" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude"
+    },
+    "hasGolfCourse" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasGolfCourse"
+    },
+    "hasLongitude" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude"
+    },
+    "hasPlayGround" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasPlayGround"
+    },
+    "StateParkFacility" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#StateParkFacility"
+    },
+    "pertainToCounty" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToCounty"
+    },
+    "hasBeach" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasBeach"
+    }
+  }
+}
