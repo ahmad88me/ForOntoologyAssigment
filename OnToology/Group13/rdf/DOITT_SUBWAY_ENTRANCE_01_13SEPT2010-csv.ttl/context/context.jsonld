@@ -1,0 +1,28 @@
+{
+  "@context" : {
+    "hasLongitude" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude"
+    },
+    "hasUrl" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl"
+    },
+    "hasName" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasName"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasLatitude" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude"
+    },
+    "pertainToSubwayLine" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSubwayLine"
+    },
+    "SubwayEntrance" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayEntrance"
+    },
+    "SubwayLine" : {
+      "@id" : "http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine"
+    }
+  }
+}
