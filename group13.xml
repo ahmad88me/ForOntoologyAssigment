@@ -990,5 +990,6 @@
 <rdf:Description rdf:about="http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine">
 	<rdfs:comment xml:lang="es">Recurso que define e identifica las lineas de metro de Nueva York</rdfs:comment>
 </rdf:Description>
-
+<!-- test-->
 </rdf:RDF>
+
