@@ -13,29 +13,8 @@
       rdfs:comment "Recurso que define e identifica a las instalaciones de sanidad \"pública\""@es ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
                 owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
                 owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:string ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
@@ -48,13 +27,34 @@
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasHealthFacilityType> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
                 owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone> ;
                 owl:someValuesFrom xsd:string
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
                 owl:onDataRange xsd:string ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasHealthFacilityType> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] .
@@ -81,22 +81,8 @@
       rdfs:comment "Recurso que define e identifica las bocas de metro de la ciudad de Nueva York"@es ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSubwayLine> ;
-                owl:someValuesFrom <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine>
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
+                owl:someValuesFrom xsd:anyURI
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
@@ -107,8 +93,22 @@
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
-                owl:someValuesFrom xsd:anyURI
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToSubwayLine> ;
+                owl:someValuesFrom <http://www.linkedData_Group13.com/ontology/livingPlaces#SubwayLine>
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
               ] .
 
 <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude>
@@ -303,6 +303,34 @@
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:string ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:anyURI ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
                 owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#Borough> ;
                 owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToBorough> ;
                 owl:qualifiedCardinality
@@ -319,34 +347,6 @@
               [ a       owl:Restriction ;
                 owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasHouseNumber> ;
                 owl:someValuesFrom xsd:decimal
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:anyURI ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:string ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
               ] .
 
 <http://www.linkedData_Group13.com/ontology/livingPlaces#hasCampZone>
@@ -413,27 +413,8 @@
       rdfs:comment "Con respecto a la data property hasURL, en este caso cada facility tnedra asociada ninguna, una o varias URL debido a las instalaciones que contenga (o no), ejemplo de esto serían instalaciones con campo de golf y playa donde habria una URL por cada sub Facility asociada a la State Facility que las contiene"@es , "Recurso que define e identifica a los State Parks de Nueva York. Donde State Park hace referencia a instalaciones de diversa indole como parques, reservas naturales, playas, etc. propiedad del estado y mantenidas por el."@es ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onDataRange xsd:boolean ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasGolfCourse> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
-                owl:someValuesFrom xsd:anyURI
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:boolean ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasBeach> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:boolean ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasCampZone> ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
@@ -453,15 +434,22 @@
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#County> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToCounty> ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasGolfCourse> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#isNatureCenter> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
@@ -474,15 +462,27 @@
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLatitude> ;
+                owl:onClass <http://www.linkedData_Group13.com/ontology/livingPlaces#County> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#pertainToCounty> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasUrl> ;
+                owl:someValuesFrom xsd:anyURI
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:boolean ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasCampZone> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
                 owl:onDataRange xsd:boolean ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#isNatureCenter> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasBeach> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] .
@@ -570,8 +570,15 @@
       rdfs:comment "Recurso que define e identifica a las escuelas de Nueva York"@es ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
-                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
+                owl:onDataRange xsd:decimal ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationalCode> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange xsd:decimal ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasZipCode> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
@@ -584,8 +591,13 @@
               ] ;
       rdfs:subClassOf
               [ a       owl:Restriction ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone> ;
+                owl:someValuesFrom xsd:string
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
                 owl:onDataRange xsd:string ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationType> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
@@ -599,7 +611,14 @@
       rdfs:subClassOf
               [ a       owl:Restriction ;
                 owl:onDataRange xsd:string ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationType> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasAddress> ;
+                owl:qualifiedCardinality
+                        "1"^^xsd:nonNegativeInteger
+              ] ;
+      rdfs:subClassOf
+              [ a       owl:Restriction ;
+                owl:onDataRange <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasLongitude> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] ;
@@ -607,25 +626,6 @@
               [ a       owl:Restriction ;
                 owl:onDataRange xsd:string ;
                 owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasName> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasPhone> ;
-                owl:someValuesFrom xsd:string
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:decimal ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasOrganizationalCode> ;
-                owl:qualifiedCardinality
-                        "1"^^xsd:nonNegativeInteger
-              ] ;
-      rdfs:subClassOf
-              [ a       owl:Restriction ;
-                owl:onDataRange xsd:decimal ;
-                owl:onProperty <http://www.linkedData_Group13.com/ontology/livingPlaces#hasZipCode> ;
                 owl:qualifiedCardinality
                         "1"^^xsd:nonNegativeInteger
               ] .
